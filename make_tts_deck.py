@@ -276,15 +276,18 @@ def load_icon_image(
 # Card rendering (PNG per card)
 # ----------------------------
 
-def get_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
+def get_font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     """
-    Use a reasonable default. DejaVuSans is commonly available.
-    Falls back to PIL's bitmap font if needed.
+    Prefer DejaVu fonts (commonly available). Bold for name/type, regular for rules.
+    Falls back to PIL default font if truetype fonts are unavailable.
     """
     try:
+        if bold:
+            return ImageFont.truetype("DejaVuSans-Bold.ttf", size=size)
         return ImageFont.truetype("DejaVuSans.ttf", size=size)
     except Exception:
         return ImageFont.load_default()
+
 
 
 def wrap_text_pil(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFont, max_width: int) -> List[str]:
@@ -328,10 +331,11 @@ def render_card_png(
     type_h = int(0.06 * H)
     gap = int(0.012 * H)
 
-    # Fonts (slightly larger for readability)
-    name_font = get_font(42)   # title
-    type_font = get_font(30)   # type line
-    rules_font = get_font(28)  # rules
+       # Larger + cleaner typography for 744x1039
+    name_font = get_font(52, bold=True)     # title (bold)
+    type_font = get_font(36, bold=True)     # type line (bold)
+    rules_font = get_font(32, bold=False)   # rules (regular)
+
 
     # --- Name bar ---
     # Simple bar outline; you can add fill color later if desired.
@@ -635,6 +639,7 @@ def main():
     ap.add_argument("--write-back", action="store_true", help="Write a simple back.png into out-dir (still needs hosting).")
 
     args = ap.parse_args()
+
 
     in_path = Path(args.input_tsv)
     out_dir = Path(args.out_dir)
