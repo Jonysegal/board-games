@@ -1,21 +1,17 @@
 #!/usr/bin/env python3
 """
-make_price_tracks.py
+generate_price_tracks.py
 
 No-CLI-args version: uses fixed, consistent paths every run.
 
-Input TSV (edit these constants if you move files):
+Input TSV:
   ./price_tiers.tsv
 
 Output PNG:
   ./build_tts/price_tracks.png
 
 Run:
-  python make_price_tracks.py
-
-Or call from your main file:
-  from make_price_tracks import generate_price_tracks
-  generate_price_tracks()
+  python generate_price_tracks.py
 """
 
 from __future__ import annotations
@@ -24,8 +20,7 @@ import csv
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
-from urllib.parse import unquote, urlparse, urlencode, urlunparse, parse_qs
+from typing import Dict, List, Optional
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -34,7 +29,7 @@ from PIL import Image, ImageDraw, ImageFont
 # Fixed paths (edit if needed)
 # ----------------------------
 
-INPUT_TSV_PATH = Path("price_tiers.tsv")
+INPUT_TSV_PATH = Path("price_tiers.tsv")               # must exist in your current working directory
 OUTPUT_PNG_PATH = Path("build_tts") / "price_tracks.png"
 
 
@@ -125,34 +120,37 @@ def parse_tiers_tsv(path: Path) -> Dict[str, List[Tier]]:
     if not header:
         raise ValueError("Missing header row.")
 
+    # IMPORTANT FIX:
+    # Only treat "<prefix>-prices" as the base price column if it is NOT the actions-price column.
+    # i.e. include "*-prices" but exclude "*-actions-prices"
     prefixes: List[str] = []
     for h in header:
         hh = _clean(h)
-        if hh.endswith("-prices"):
+        if hh.endswith("-prices") and not hh.endswith("-actions-prices"):
             prefixes.append(hh[:-len("-prices")])
 
     if not prefixes:
-        raise ValueError("Could not find any '<prefix>-prices' columns in header.")
+        raise ValueError(
+            "Could not find any '<prefix>-prices' columns in header "
+            "(excluding '*-actions-prices')."
+        )
 
     # column indices for each prefix
     col_idx: Dict[str, int] = {}
+    header_map = {_clean(h): i for i, h in enumerate(header)}
+
     for pref in prefixes:
-        want = {
-            f"{pref}-prices": None,
-            f"{pref}-actions-prices": None,
-            f"{pref}-intervals": None,
-        }
-        for i, h in enumerate(header):
-            hh = _clean(h)
-            if hh in want:
-                want[hh] = i
-        missing = [k for k, v in want.items() if v is None]
+        prices_key = f"{pref}-prices"
+        actions_key = f"{pref}-actions-prices"
+        intervals_key = f"{pref}-intervals"
+
+        missing = [k for k in [prices_key, actions_key, intervals_key] if k not in header_map]
         if missing:
             raise ValueError(f"Missing required columns for prefix '{pref}': {missing}")
 
-        col_idx[f"{pref}-prices"] = int(want[f"{pref}-prices"])  # type: ignore[arg-type]
-        col_idx[f"{pref}-actions-prices"] = int(want[f"{pref}-actions-prices"])  # type: ignore[arg-type]
-        col_idx[f"{pref}-intervals"] = int(want[f"{pref}-intervals"])  # type: ignore[arg-type]
+        col_idx[prices_key] = header_map[prices_key]
+        col_idx[actions_key] = header_map[actions_key]
+        col_idx[intervals_key] = header_map[intervals_key]
 
     out: Dict[str, List[Tier]] = {pref: [] for pref in prefixes}
 
@@ -184,11 +182,13 @@ def parse_tiers_tsv(path: Path) -> Dict[str, List[Tier]]:
 # ----------------------------
 
 def generate_price_tracks() -> None:
-    """
-    Reads INPUT_TSV_PATH and writes OUTPUT_PNG_PATH using fixed render parameters.
-    """
     if not INPUT_TSV_PATH.exists():
-        raise FileNotFoundError(f"Missing input TSV: {INPUT_TSV_PATH.resolve()}")
+        cwd = Path.cwd().resolve()
+        raise FileNotFoundError(
+            f"Missing input TSV: {INPUT_TSV_PATH.resolve()}\n"
+            f"Current working directory: {cwd}\n"
+            f"Fix: place your tiers file at '{cwd / INPUT_TSV_PATH}', or change INPUT_TSV_PATH in this script."
+        )
 
     tiers_by_prefix = parse_tiers_tsv(INPUT_TSV_PATH)
 
@@ -207,7 +207,7 @@ def generate_price_tracks() -> None:
 
     title = "Stock Price Tracks"
     tb = draw.textbbox((0, 0), title, font=title_font)
-    tw, th = tb[2] - tb[0], tb[3] - tb[1]
+    tw, _ = tb[2] - tb[0], tb[3] - tb[1]
     draw.text(((CANVAS_W_PX - tw) // 2, MARGIN_PX // 2), title, font=title_font, fill=(0, 0, 0))
 
     top_y = MARGIN_PX + 90
@@ -228,10 +228,8 @@ def generate_price_tracks() -> None:
         track_name = name_map.get(pref, pref.upper())
         draw.text((x0, y - 78), track_name, font=label_font_bold, fill=(0, 0, 0))
 
-        # Baseline
         draw.line((x0, y, x1, y), fill=(0, 0, 0), width=LINE_W)
 
-        # Evenly spaced big dots
         n_tiers = len(tiers)
         inner_pad = 180
         bx0 = x0 + inner_pad
@@ -241,20 +239,16 @@ def generate_price_tracks() -> None:
         xs = [int(round(bx0 + i * step)) for i in range(n_tiers)]
 
         for i, (x, tier) in enumerate(zip(xs, tiers)):
-            # Big dot
             draw.ellipse((x - BIG_DOT_R, y - BIG_DOT_R, x + BIG_DOT_R, y + BIG_DOT_R), fill=(0, 0, 0))
 
-            # Labels
             left_txt = str(tier.action_price)
             right_txt = str(tier.price)
 
             lb = draw.textbbox((0, 0), left_txt, font=label_font)
             ltw = lb[2] - lb[0]
             draw.text((x - BIG_DOT_R - 12 - ltw, y - 62), left_txt, font=label_font, fill=(0, 0, 0))
-
             draw.text((x + BIG_DOT_R + 12, y - 62), right_txt, font=label_font, fill=(0, 0, 0))
 
-            # Small dots between this and next tier
             if i < n_tiers - 1:
                 n_small = max(0, int(tier.intervals_to_next))
                 if n_small > 0:
@@ -270,7 +264,7 @@ def generate_price_tracks() -> None:
 
     OUTPUT_PNG_PATH.parent.mkdir(parents=True, exist_ok=True)
     img.save(OUTPUT_PNG_PATH, format="PNG")
-    print(f"Wrote: {OUTPUT_PNG_PATH}")
+    print(f"Wrote: {OUTPUT_PNG_PATH.resolve()}")
 
 
 def main() -> None:
