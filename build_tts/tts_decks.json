@@ -36,8 +36,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_01.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_01.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -45,8 +45,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_02.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_02.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -405,8 +405,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_01.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Events/deck_01.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -414,8 +414,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_02.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Events/deck_02.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 2,
           "BackIsHidden": true,
@@ -886,8 +886,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_01.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_01.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -895,8 +895,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_02.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_02.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -1417,8 +1417,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_01.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Players/deck_01.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -1567,8 +1567,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_01.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_01.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -1576,8 +1576,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_02.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_02.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -2147,8 +2147,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_01.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_01.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -2156,8 +2156,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "REPLACE_WITH_PUBLIC_URL/deck_02.png",
-          "BackURL": "REPLACE_WITH_PUBLIC_URL/back.png",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_02.png?v=1",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=1",
           "NumWidth": 5,
           "NumHeight": 1,
           "BackIsHidden": true,
