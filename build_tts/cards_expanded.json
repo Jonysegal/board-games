@@ -1,0 +1,835 @@
+[
+  {
+    "section": "Price Manipulation",
+    "name": "Market Nudge",
+    "text": "Increase or decrease the price of any stock by one",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Nudge",
+    "text": "Increase or decrease the price of any stock by one",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Nudge",
+    "text": "Increase or decrease the price of any stock by one",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Nudge",
+    "text": "Increase or decrease the price of any stock by one",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 4
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Nudge",
+    "text": "Increase or decrease the price of any stock by one",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 5
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Nudge",
+    "text": "Increase or decrease the price of any stock by one",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 6
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Nudge",
+    "text": "Increase or decrease the price of any stock by one",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 7
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Nudge",
+    "text": "Increase or decrease the price of any stock by one",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 8
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Aggressive Sell-Off",
+    "text": "Decrease the price of any stock by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Down_arrow_icon.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Aggressive Sell-Off",
+    "text": "Decrease the price of any stock by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Down_arrow_icon.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Aggressive Sell-Off",
+    "text": "Decrease the price of any stock by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Down_arrow_icon.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Aggressive Sell-Off",
+    "text": "Decrease the price of any stock by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Down_arrow_icon.svg",
+    "copy_index": 4
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Internal Repricing",
+    "text": "Increase or decrease the price of Price Manipulators by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Internal Repricing",
+    "text": "Increase or decrease the price of Price Manipulators by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Liquidity Shock",
+    "text": "Increase or decrease the price of Liquidity Events by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Liquidity Shock",
+    "text": "Increase or decrease the price of Liquidity Events by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Insider Pressure",
+    "text": "Increase or decrease the price of Corporate Espionage by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Insider Pressure",
+    "text": "Increase or decrease the price of Corporate Espionage by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Innovation Revaluation",
+    "text": "Increase or decrease the price of Technological leaps by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Innovation Revaluation",
+    "text": "Increase or decrease the price of Technological leaps by three",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Guided Forecast",
+    "text": "Announce a stock and a direction. At the start of your next turn, move that stock in that direction by four.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Calendar_Clock.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Guided Forecast",
+    "text": "Announce a stock and a direction. At the start of your next turn, move that stock in that direction by four.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Calendar_Clock.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Signal",
+    "text": "Announce a stock. At the start of your next turn, move it up or down by three.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Calendar_Clock.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Signal",
+    "text": "Announce a stock. At the start of your next turn, move it up or down by three.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Calendar_Clock.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Supply Dump / Corner the Market",
+    "text": "You may trade in as many of a stock as you choose. Raise or lower the price of that stock by the amount you traded in.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Tabler-icons_arrows-exchange-2.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Supply Dump / Corner the Market",
+    "text": "You may trade in as many of a stock as you choose. Raise or lower the price of that stock by the amount you traded in.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Tabler-icons_arrows-exchange-2.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Momentum Buying",
+    "text": "Every time you buy a stock this turn increase its price by the amount of stock you bought.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Shopping_cart_icon.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Momentum Buying",
+    "text": "Every time you buy a stock this turn increase its price by the amount of stock you bought.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Shopping_cart_icon.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Portfolio Rebalance",
+    "text": "Choose one: move the stock you own the most of down five, or move the stock you own the least of up five. If there are ties, choose which stock to move.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Balance-Scale.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Block Trade",
+    "text": "Buy or sell up to three of any one stock",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Block Trade",
+    "text": "Buy or sell up to three of any one stock",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Block Trade",
+    "text": "Buy or sell up to three of any one stock",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Block Trade",
+    "text": "Buy or sell up to three of any one stock",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 4
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Block Trade",
+    "text": "Buy or sell up to three of any one stock",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 5
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Block Trade",
+    "text": "Buy or sell up to three of any one stock",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 6
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Focused Liquidity",
+    "text": "Buy or sell up to five stock in Price Manipulators",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Focused Liquidity",
+    "text": "Buy or sell up to five stock in Price Manipulators",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Market Flood",
+    "text": "Buy or sell up to five stock in Liquidity Events",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Market Flood",
+    "text": "Buy or sell up to five stock in Liquidity Events",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Covert Liquidity",
+    "text": "Buy or sell up to five stock in Corporate Espionage",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Covert Liquidity",
+    "text": "Buy or sell up to five stock in Corporate Espionage",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Speculative Surge",
+    "text": "Buy or sell up to five stock in Technological Leaps",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Speculative Surge",
+    "text": "Buy or sell up to five stock in Technological Leaps",
+    "image_link": "https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Asset Conversion",
+    "text": "Exchange three of a stock for one of any other stock",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Tabler-icons_arrows-exchange-2.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Asset Conversion",
+    "text": "Exchange three of a stock for one of any other stock",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Tabler-icons_arrows-exchange-2.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Asset Conversion",
+    "text": "Exchange three of a stock for one of any other stock",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Tabler-icons_arrows-exchange-2.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Liquidate Holdings",
+    "text": "You may sell any number of an action type in your hand for the price of the stock. You may do it for only one stock type.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Antu_help-donate.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Liquidate Holdings",
+    "text": "You may sell any number of an action type in your hand for the price of the stock. You may do it for only one stock type.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Antu_help-donate.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Liquidate Holdings",
+    "text": "You may sell any number of an action type in your hand for the price of the stock. You may do it for only one stock type.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Antu_help-donate.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Diversified Buy-In",
+    "text": "Buy one of each stock. Play this card only if you can afford to buy one of all of them.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Shopping_cart_icon.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Diversified Buy-In",
+    "text": "Buy one of each stock. Play this card only if you can afford to buy one of all of them.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Shopping_cart_icon.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Diversified Buy-In",
+    "text": "Buy one of each stock. Play this card only if you can afford to buy one of all of them.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Shopping_cart_icon.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Premium Purchase",
+    "text": "Buy up to five of any one stock. You must pay the current price + one tick.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Up_arrow_icon.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Premium Purchase",
+    "text": "Buy up to five of any one stock. You must pay the current price + one tick.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:Up_arrow_icon.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Strategic Selection",
+    "text": "Buy an action. Instead of taking the top card, look at the top five cards of the deck and choose one. Put the others on the bottom of the deck.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:5fingers_icoline.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Strategic Selection",
+    "text": "Buy an action. Instead of taking the top card, look at the top five cards of the deck and choose one. Put the others on the bottom of the deck.",
+    "image_link": "https://commons.wikimedia.org/wiki/File:5fingers_icoline.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "System Reset",
+    "text": "Reset your move count to three.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "System Reset",
+    "text": "Reset your move count to three.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "System Reset",
+    "text": "Reset your move count to three.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "System Reset",
+    "text": "Reset your move count to three.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload.svg",
+    "copy_index": 4
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "System Reset",
+    "text": "Reset your move count to three.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload.svg",
+    "copy_index": 5
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "System Reset",
+    "text": "Reset your move count to three.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload.svg",
+    "copy_index": 6
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Action Replication",
+    "text": "This action behaves as a copy of the last action you played.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Action Replication",
+    "text": "This action behaves as a copy of the last action you played.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Action Replication",
+    "text": "This action behaves as a copy of the last action you played.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Action Replication",
+    "text": "This action behaves as a copy of the last action you played.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg",
+    "copy_index": 4
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Deferred Overclock",
+    "text": "Lose all your moves this turn. Next turn you start with six moves. Play only as the first move of a turn.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20clock-destructive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Deferred Overclock",
+    "text": "Lose all your moves this turn. Next turn you start with six moves. Play only as the first move of a turn.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20clock-destructive.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Vertical Integration",
+    "text": "You may exchange any number of one type of stock for that many cards of the company's type.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Vertical Integration",
+    "text": "You may exchange any number of one type of stock for that many cards of the company's type.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Vertical Integration",
+    "text": "You may exchange any number of one type of stock for that many cards of the company's type.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Vertical Integration",
+    "text": "You may exchange any number of one type of stock for that many cards of the company's type.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg",
+    "copy_index": 4
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Unlimited Bandwidth",
+    "text": "Ignore the hand size limit this turn.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20fullScreen.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Infrastructure Upgrade",
+    "text": "Your maximum hand size is permanently one bigger.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20add.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Forced Liquidation",
+    "text": "Move the price of a stock up two. Choose an opponent. They must sell all of their stock of that type.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20block.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Forced Liquidation",
+    "text": "Move the price of a stock up two. Choose an opponent. They must sell all of their stock of that type.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20block.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Forced Liquidation",
+    "text": "Move the price of a stock up two. Choose an opponent. They must sell all of their stock of that type.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20block.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Market Trap",
+    "text": "Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by one.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20alert-warning.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Market Trap",
+    "text": "Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by one.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20alert-warning.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Market Trap",
+    "text": "Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by one.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20alert-warning.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Regulatory Shutdown",
+    "text": "Play in response to an opponent's action card to cancel its effect.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20close-ltr-destructive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Regulatory Shutdown",
+    "text": "Play in response to an opponent's action card to cancel its effect.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20close-ltr-destructive.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Embezzlement",
+    "text": "Steal $50,000 from an opponent.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Embezzlement",
+    "text": "Steal $50,000 from an opponent.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Embezzlement",
+    "text": "Steal $50,000 from an opponent.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Embezzlement",
+    "text": "Steal $50,000 from an opponent.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg",
+    "copy_index": 4
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Hostile Exchange",
+    "text": "You may exchange three stock of one type for an opponent's as many times as you want. Do this for only one stock type.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Hostile Exchange",
+    "text": "You may exchange three stock of one type for an opponent's as many times as you want. Do this for only one stock type.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Intercept Operation",
+    "text": "Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Intercept Operation",
+    "text": "Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Intercept Operation",
+    "text": "Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Events",
+    "name": "Market Crash",
+    "text": "Move the price of all stocks down by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Market Crash",
+    "text": "Move the price of all stocks down by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Events",
+    "name": "Market Crash",
+    "text": "Move the price of all stocks down by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Events",
+    "name": "Market Crash",
+    "text": "Move the price of all stocks down by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
+    "copy_index": 4
+  },
+  {
+    "section": "Events",
+    "name": "Market Boom",
+    "text": "Move the price of all stocks up by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Market Boom",
+    "text": "Move the price of all stocks up by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Events",
+    "name": "Market Boom",
+    "text": "Move the price of all stocks up by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Events",
+    "name": "Market Boom",
+    "text": "Move the price of all stocks up by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 4
+  },
+  {
+    "section": "Events",
+    "name": "Government Grant",
+    "text": "Gain $100,000 from the bank.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Government Grant",
+    "text": "Gain $100,000 from the bank.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Events",
+    "name": "Stimulus Package",
+    "text": "Every player gets $50,000 from the bank.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Stimulus Package",
+    "text": "Every player gets $50,000 from the bank.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 2
+  },
+  {
+    "section": "Events",
+    "name": "Stimulus Package",
+    "text": "Every player gets $50,000 from the bank.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 3
+  },
+  {
+    "section": "Events",
+    "name": "Orderly Sell-Off",
+    "text": "Starting with you and going left, every player can sell up to three of their stocks.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Buying Frenzy",
+    "text": "Starting with you and going left, every player can buy up to three stocks.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Liquidity Auction",
+    "text": "Action off a stock in Liquidity Events.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Liquidity Spotlight",
+    "text": "Reveal the top Liquidity Events action and auction it off.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Market Influence Auction",
+    "text": "Action off a stock in Price Persuasion.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Influence Spotlight",
+    "text": "Reveal the top Price Persuasion action and auction it off.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Innovation Auction",
+    "text": "Action off a stock in Technological Leaps.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Innovation Spotlight",
+    "text": "Reveal the top Technological Leaps action and auction it off.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Espionage Auction",
+    "text": "Action off a stock in Corporate Espionage.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Events",
+    "name": "Espionage Spotlight",
+    "text": "Reveal the top Corporate Espionage action and auction it off.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Players",
+    "name": "Seed Capital",
+    "text": "Start with an extra $50,000.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Players",
+    "name": "Early Advantage",
+    "text": "Once per game you may start your turn with five moves.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20clock.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Players",
+    "name": "Strategic Planning",
+    "text": "At the start of the game draw an action of your choice for free.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20die.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Players",
+    "name": "Universal Exposure",
+    "text": "You can play card that references a specific stock (e.g., increase the price of Price Persuasion by three) on any stock.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20advanced.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Players",
+    "name": "Black Market Premium",
+    "text": "Sell Corporate Espionage Stock at the asking price plus one tick.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 1
+  }
+]
