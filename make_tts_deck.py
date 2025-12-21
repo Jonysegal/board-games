@@ -278,15 +278,40 @@ def load_icon_image(
 
 def get_font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     """
-    Prefer DejaVu fonts (commonly available). Bold for name/type, regular for rules.
-    Falls back to PIL default font if truetype fonts are unavailable.
+    Load a real TrueType font with predictable metrics.
+    On Windows, prefer system fonts from C:\\Windows\\Fonts.
+    Falls back to PIL default only if all attempts fail.
     """
-    try:
+    candidates = []
+
+    if sys.platform.startswith("win"):
+        # Very commonly present on Windows:
         if bold:
-            return ImageFont.truetype("DejaVuSans-Bold.ttf", size=size)
-        return ImageFont.truetype("DejaVuSans.ttf", size=size)
-    except Exception:
-        return ImageFont.load_default()
+            candidates += [
+                r"C:\Windows\Fonts\arialbd.ttf",   # Arial Bold
+                r"C:\Windows\Fonts\calibrib.ttf",  # Calibri Bold
+                r"C:\Windows\Fonts\segoeuib.ttf",  # Segoe UI Bold
+            ]
+        else:
+            candidates += [
+                r"C:\Windows\Fonts\arial.ttf",
+                r"C:\Windows\Fonts\calibri.ttf",
+                r"C:\Windows\Fonts\segoeui.ttf",
+            ]
+
+    # Cross-platform fallbacks (Linux/macOS/if bundled)
+    if bold:
+        candidates += ["DejaVuSans-Bold.ttf"]
+    else:
+        candidates += ["DejaVuSans.ttf"]
+
+    for fp in candidates:
+        try:
+            return ImageFont.truetype(fp, size=size)
+        except Exception:
+            continue
+
+    return ImageFont.load_default()
 
 
 
