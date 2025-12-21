@@ -1,69 +1,1025 @@
-name	text	image-link	card-count
-Price Manipulation			
-Market Nudge	Increase or decrease the price of any stock by one	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	8
-Aggressive Sell-Off	Decrease the price of any stock by three	https://commons.wikimedia.org/wiki/File:Down_arrow_icon.svg	4
-Internal Repricing	Increase or decrease the price of Price Manipulators by three	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	2
-Liquidity Shock	Increase or decrease the price of Liquidity Events by three	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	2
-Insider Pressure	Increase or decrease the price of Corporate Espionage by three	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	2
-Innovation Revaluation	Increase or decrease the price of Technological leaps by three	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	2
-Guided Forecast	Announce a stock and a direction. At the start of your next turn, move that stock in that direction by four.	https://commons.wikimedia.org/wiki/File:Calendar_Clock.svg	2
-Market Signal	Announce a stock. At the start of your next turn, move it up or down by three.	https://commons.wikimedia.org/wiki/File:Calendar_Clock.svg	2
-Supply Dump / Corner the Market	You may trade in as many of a stock as you choose. Raise or lower the price of that stock by the amount you traded in.	https://commons.wikimedia.org/wiki/File:Tabler-icons_arrows-exchange-2.svg	2
-Momentum Buying	Every time you buy a stock this turn increase its price by the amount of stock you bought.	https://commons.wikimedia.org/wiki/File:Shopping_cart_icon.svg	2
-Portfolio Rebalance	Choose one: move the stock you own the most of down five, or move the stock you own the least of up five. If there are ties, choose which stock to move.	https://commons.wikimedia.org/wiki/File:Balance-Scale.svg	1
-			
-Liquidity Events			
-Block Trade	Buy or sell up to three of any one stock	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	6
-Focused Liquidity	Buy or sell up to five stock in Price Manipulators	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	2
-Market Flood	Buy or sell up to five stock in Liquidity Events	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	2
-Covert Liquidity	Buy or sell up to five stock in Corporate Espionage	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	2
-Speculative Surge	Buy or sell up to five stock in Technological Leaps	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	2
-Asset Conversion	Exchange three of a stock for one of any other stock	https://commons.wikimedia.org/wiki/File:Tabler-icons_arrows-exchange-2.svg	3
-Liquidate Holdings	You may sell any number of an action type in your hand for the price of the stock. You may do it for only one stock type.	https://commons.wikimedia.org/wiki/File:Antu_help-donate.svg	3
-Diversified Buy-In	Buy one of each stock. Play this card only if you can afford to buy one of all of them.	https://commons.wikimedia.org/wiki/File:Shopping_cart_icon.svg	3
-Controlled Auction	Look at the top three cards of any one action type and choose one to auction off. Put the other two at the bottom.	https://commons.wikimedia.org/wiki/File:Eye_icon.svg	0
-Premium Purchase	Buy up to five of any one stock. You must pay the current price + one tick.	https://commons.wikimedia.org/wiki/File:Up_arrow_icon.svg	2
-Strategic Selection	Buy an action. Instead of taking the top card, look at the top five cards of the deck and choose one. Put the others on the bottom of the deck.	https://commons.wikimedia.org/wiki/File:5fingers_icoline.svg	2
-			
-Technological Leaps			
-System Reset	Reset your move count to three.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload.svg	6
-Action Replication	This action behaves as a copy of the last action you played.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg	4
-Deferred Overclock	Lose all your moves this turn. Next turn you start with six moves. Play only as the first move of a turn.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20clock-destructive.svg	2
-Dual Execution	Play the top of any action pile. The card is played twice.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload-progressive.svg	0
-Vertical Integration	You may exchange any number of one type of stock for that many cards of the company's type.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg	4
-Unlimited Bandwidth	Ignore the hand size limit this turn.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20fullScreen.svg	1
-Infrastructure Upgrade	Your maximum hand size is permanently one bigger.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20add.svg	1
-Interrupt Protocol	Play an action as an instant.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20highlight.svg	0
-			
-Corporate Espionage			
-Forced Liquidation	Move the price of a stock up two. Choose an opponent. They must sell all of their stock of that type.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20block.svg	3
-Market Trap	Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by one.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20alert-warning.svg	3
-Regulatory Shutdown	Play in response to an opponent's action card to cancel its effect.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20close-ltr-destructive.svg	2
-Embezzlement	Steal $50,000 from an opponent.	https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg	4
-Hostile Exchange	You may exchange three stock of one type for an opponent's as many times as you want. Do this for only one stock type.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg	2
-Pump and Dump	Choose an opponent and a stock. They must buy as many of your stock of that type from you as they can afford.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arrowNext-ltr-progressive.svg	0
-Intercept Operation	Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg	3
-			
-Events			
-Market Crash	Move the price of all stocks down by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg	4
-Market Boom	Move the price of all stocks up by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	4
-Government Grant	Gain $100,000 from the bank.	https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg	2
-Stimulus Package	Every player gets $50,000 from the bank.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	3
-Wealth Redistribution	The richest player must donate $50,000 to the poorest player.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userTalk-ltr-progressive.svg	0
-Orderly Sell-Off	Starting with you and going left, every player can sell up to three of their stocks.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg	1
-Buying Frenzy	Starting with you and going left, every player can buy up to three stocks.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	1
-Liquidity Auction	Action off a stock in Liquidity Events.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg	1
-Liquidity Spotlight	Reveal the top Liquidity Events action and auction it off.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg	1
-Market Influence Auction	Action off a stock in Price Persuasion.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg	1
-Influence Spotlight	Reveal the top Price Persuasion action and auction it off.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg	1
-Innovation Auction	Action off a stock in Technological Leaps.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg	1
-Innovation Spotlight	Reveal the top Technological Leaps action and auction it off.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg	1
-Espionage Auction	Action off a stock in Corporate Espionage.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg	1
-Espionage Spotlight	Reveal the top Corporate Espionage action and auction it off.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg	1
-			
-Players			
-Seed Capital	Start with an extra $50,000.	https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg	1
-Early Advantage	Once per game you may start your turn with five moves.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20clock.svg	1
-Strategic Planning	At the start of the game draw an action of your choice for free.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20die.svg	1
-Universal Exposure	You can play card that references a specific stock (e.g., increase the price of Price Persuasion by three) on any stock. 	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20advanced.svg	1
-Black Market Premium	Sell Corporate Espionage Stock at the asking price plus one tick.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	1
+name	text	image-link	card-count																						
+Price Manipulation																									
+Market Nudge	Increase or decrease the price of any stock by one	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	8																						
+Aggressive Sell-Off	Decrease the price of any stock by three	https://commons.wikimedia.org/wiki/File:Down_arrow_icon.svg	4																						
+Internal Repricing	Increase or decrease the price of Price Manipulators by three	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	2																						
+Liquidity Shock	Increase or decrease the price of Liquidity Events by three	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	2																						
+Insider Pressure	Increase or decrease the price of Corporate Espionage by three	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	2																						
+Innovation Revaluation	Increase or decrease the price of Technological leaps by three	https://commons.wikimedia.org/wiki/File:Arrow-up-down-line.svg	2																						
+Guided Forecast	Announce a stock and a direction. At the start of your next turn, move that stock in that direction by four.	https://commons.wikimedia.org/wiki/File:Calendar_Clock.svg	2																						
+Market Signal	Announce a stock. At the start of your next turn, move it up or down by three.	https://commons.wikimedia.org/wiki/File:Calendar_Clock.svg	2																						
+Supply Dump / Corner the Market	You may trade in as many of a stock as you choose. Raise or lower the price of that stock by the amount you traded in.	https://commons.wikimedia.org/wiki/File:Tabler-icons_arrows-exchange-2.svg	2																						
+Momentum Buying	Every time you buy a stock this turn increase its price by the amount of stock you bought.	https://commons.wikimedia.org/wiki/File:Shopping_cart_icon.svg	2																						
+Portfolio Rebalance	Choose one: move the stock you own the most of down five, or move the stock you own the least of up five. If there are ties, choose which stock to move.	https://commons.wikimedia.org/wiki/File:Balance-Scale.svg	1																						
+Market Influence Auction	Action off a stock in Price Persuasion.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg	1																						
+Influence Spotlight	Reveal the top Price Persuasion action and auction it off.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg	1																						
+Market Crash	Move the price of all stocks down by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg	1																						
+Market Boom	Move the price of all stocks up by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	1																						
+Stimulus Package	The poorest player (in terms of cash) gains $5.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+Death of a rich aunt	The player with the fewest stocks gets a free stock in Price Persuasion.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+																									
+Liquidity Events																									
+Block Trade	Buy or sell up to three of any one stock	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	6																						
+Focused Liquidity	Buy or sell up to five stock in Price Manipulators	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	2																						
+Market Flood	Buy or sell up to five stock in Liquidity Events	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	2																						
+Covert Liquidity	Buy or sell up to five stock in Corporate Espionage	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	2																						
+Speculative Surge	Buy or sell up to five stock in Technological Leaps	https://commons.wikimedia.org/wiki/File:7.3.3_(Road_sign).svg	2																						
+Asset Conversion	Exchange three of a stock for one of any other stock	https://commons.wikimedia.org/wiki/File:Tabler-icons_arrows-exchange-2.svg	3																						
+Liquidate Holdings	You may sell any number of an action type in your hand for the price of the stock. You may do it for only one stock type.	https://commons.wikimedia.org/wiki/File:Antu_help-donate.svg	3																						
+Diversified Buy-In	Buy one of each stock. Play this card only if you can afford to buy one of all of them.	https://commons.wikimedia.org/wiki/File:Shopping_cart_icon.svg	3																						
+Controlled Auction	Look at the top three cards of any one action type and choose one to auction off. Put the other two at the bottom.	https://commons.wikimedia.org/wiki/File:Eye_icon.svg	0																						
+Premium Purchase	Buy up to five of any one stock. You must pay the current price + one tick.	https://commons.wikimedia.org/wiki/File:Up_arrow_icon.svg	2																						
+Strategic Selection	Buy an action. Instead of taking the top card, look at the top five cards of the deck and choose one. Put the others on the bottom of the deck.	https://commons.wikimedia.org/wiki/File:5fingers_icoline.svg	2																						
+Liquidity Auction	Action off a stock in Liquidity Events.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg	1																						
+Liquidity Spotlight	Reveal the top Liquidity Events action and auction it off.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg	1																						
+Market Crash	Move the price of all stocks down by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg	1																						
+Market Boom	Move the price of all stocks up by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	1																						
+Stimulus Package	The poorest player (in terms of cash) gains $5.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+Death of a rich aunt	The player with the fewest stocks gets a free stock in Price Persuasion.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+																									
+Technological Leaps																									
+System Reset	Reset your move count to three.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload.svg	6																						
+Action Replication	This action behaves as a copy of the last action you played.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg	4																						
+Deferred Overclock	Lose all your moves this turn. Next turn you start with six moves. Play only as the first move of a turn.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20clock-destructive.svg	2																						
+Dual Execution	Play the top of any action pile. The card is played twice.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20reload-progressive.svg	0																						
+Vertical Integration	You may exchange any number of one type of stock for that many cards of the company's type.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg	4																						
+Unlimited Bandwidth	Ignore the hand size limit this turn.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20fullScreen.svg	1																						
+Infrastructure Upgrade	Your maximum hand size is permanently one bigger.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20add.svg	1																						
+Interrupt Protocol	Play an action as an instant.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20highlight.svg	0																						
+Innovation Auction	Action off a stock in Technological Leaps.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg	1																						
+Innovation Spotlight	Reveal the top Technological Leaps action and auction it off.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg	1																						
+Market Crash	Move the price of all stocks down by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg	1																						
+Market Boom	Move the price of all stocks up by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	1																						
+Stimulus Package	The poorest player (in terms of cash) gains $5.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+Death of a rich aunt	The player with the fewest stocks gets a free stock in Price Persuasion.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+																									
+Corporate Espionage																									
+Forced Liquidation	Move the price of a stock up two. Choose an opponent. They must sell all of their stock of that type.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20block.svg	3																						
+Market Trap	Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by one.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20alert-warning.svg	3																						
+Regulatory Shutdown	Play in response to an opponent's action card to cancel its effect.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20close-ltr-destructive.svg	2																						
+Embezzlement	Steal $50,000 from an opponent.	https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg	4																						
+Hostile Exchange	You may exchange three stock of one type for an opponent's as many times as you want. Do this for only one stock type.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arched-arrow-rtl.svg	2																						
+Pump and Dump	Choose an opponent and a stock. They must buy as many of your stock of that type from you as they can afford.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20arrowNext-ltr-progressive.svg	0																						
+Intercept Operation	Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20copy-ltr.svg	3																						
+Espionage Auction	Action off a stock in Corporate Espionage.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg	1																						
+Espionage Spotlight	Reveal the top Corporate Espionage action and auction it off.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg	1																						
+Market Crash	Move the price of all stocks down by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg	1																						
+Market Boom	Move the price of all stocks up by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	1																						
+Stimulus Package	The poorest player (in terms of cash) gains $5.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+Death of a rich aunt	The player with the fewest stocks gets a free stock in Price Persuasion.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+																									
+Events																									
+Market Crash	Move the price of all stocks down by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg	1																						
+Market Boom	Move the price of all stocks up by two.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	1																						
+Government Grant	Gain $100,000 from the bank.	https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg	1																						
+Stimulus Package	The poorest player (in terms of cash) gains $5.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+Death of a rich aunt	The player with the fewest stocks gets a free stock in Price Persuasion.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg	1																						
+Wealth Redistribution	The richest player must donate $50,000 to the poorest player.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userTalk-ltr-progressive.svg	0																						
+Orderly Sell-Off	Starting with you and going left, every player can sell up to three of their stocks.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg	1																						
+Buying Frenzy	Starting with you and going left, every player can buy up to three stocks.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	1																						
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+Players																									
+Seed Capital	Start with an extra $50,000.	https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg	1																						
+Early Advantage	Once per game you may start your turn with five moves.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20clock.svg	1																						
+Strategic Planning	At the start of the game draw an action of your choice for free.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20die.svg	1																						
+Universal Exposure	You can play card that references a specific stock (e.g., increase the price of Price Persuasion by three) on any stock. 	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20advanced.svg	1																						
+Black Market Premium	Sell Corporate Espionage Stock at the asking price plus one tick.	https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg	1																						
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									

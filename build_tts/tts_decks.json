@@ -32,12 +32,18 @@
         113,
         114,
         200,
-        201
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_01.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Green.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_01.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Green.png?v=3",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -45,10 +51,10 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_02.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Green.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_02.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Green.png?v=3",
           "NumWidth": 5,
-          "NumHeight": 1,
+          "NumHeight": 2,
           "BackIsHidden": true,
           "UniqueBack": false,
           "Type": 0
@@ -360,6 +366,114 @@
           "Description": "Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.",
           "CardID": 201,
           "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Espionage Auction",
+          "Description": "Action off a stock in Corporate Espionage.",
+          "CardID": 202,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Espionage Spotlight",
+          "Description": "Reveal the top Corporate Espionage action and auction it off.",
+          "CardID": 203,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Market Crash",
+          "Description": "Move the price of all stocks down by two.",
+          "CardID": 204,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Market Boom",
+          "Description": "Move the price of all stocks up by two.",
+          "CardID": 205,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Stimulus Package",
+          "Description": "The poorest player (in terms of cash) gains $5.",
+          "CardID": 206,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Death of a rich aunt",
+          "Description": "The player with the fewest stocks gets a free stock in Price Persuasion.",
+          "CardID": 207,
+          "CustomDeck": {}
         }
       ]
     },
@@ -385,37 +499,12 @@
         103,
         104,
         105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        200,
-        201,
-        202,
-        203,
-        204,
-        205,
-        206,
-        207
+        106
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Events/deck_01.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=2",
-          "NumWidth": 5,
-          "NumHeight": 3,
-          "BackIsHidden": true,
-          "UniqueBack": false,
-          "Type": 0
-        },
-        "2": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Events/deck_02.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Events/deck_01.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=3",
           "NumWidth": 5,
           "NumHeight": 2,
           "BackIsHidden": true,
@@ -455,8 +544,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Market Crash",
-          "Description": "Move the price of all stocks down by two.",
+          "Nickname": "Market Boom",
+          "Description": "Move the price of all stocks up by two.",
           "CardID": 101,
           "CustomDeck": {}
         },
@@ -473,8 +562,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Market Crash",
-          "Description": "Move the price of all stocks down by two.",
+          "Nickname": "Government Grant",
+          "Description": "Gain $100,000 from the bank.",
           "CardID": 102,
           "CustomDeck": {}
         },
@@ -491,8 +580,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Market Crash",
-          "Description": "Move the price of all stocks down by two.",
+          "Nickname": "Stimulus Package",
+          "Description": "The poorest player (in terms of cash) gains $5.",
           "CardID": 103,
           "CustomDeck": {}
         },
@@ -509,153 +598,9 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Market Boom",
-          "Description": "Move the price of all stocks up by two.",
+          "Nickname": "Death of a rich aunt",
+          "Description": "The player with the fewest stocks gets a free stock in Price Persuasion.",
           "CardID": 104,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Market Boom",
-          "Description": "Move the price of all stocks up by two.",
-          "CardID": 105,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Market Boom",
-          "Description": "Move the price of all stocks up by two.",
-          "CardID": 106,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Market Boom",
-          "Description": "Move the price of all stocks up by two.",
-          "CardID": 107,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Government Grant",
-          "Description": "Gain $100,000 from the bank.",
-          "CardID": 108,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Government Grant",
-          "Description": "Gain $100,000 from the bank.",
-          "CardID": 109,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Stimulus Package",
-          "Description": "Every player gets $50,000 from the bank.",
-          "CardID": 110,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Stimulus Package",
-          "Description": "Every player gets $50,000 from the bank.",
-          "CardID": 111,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Stimulus Package",
-          "Description": "Every player gets $50,000 from the bank.",
-          "CardID": 112,
           "CustomDeck": {}
         },
         {
@@ -673,7 +618,7 @@
           },
           "Nickname": "Orderly Sell-Off",
           "Description": "Starting with you and going left, every player can sell up to three of their stocks.",
-          "CardID": 113,
+          "CardID": 105,
           "CustomDeck": {}
         },
         {
@@ -691,151 +636,7 @@
           },
           "Nickname": "Buying Frenzy",
           "Description": "Starting with you and going left, every player can buy up to three stocks.",
-          "CardID": 114,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Liquidity Auction",
-          "Description": "Action off a stock in Liquidity Events.",
-          "CardID": 200,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Liquidity Spotlight",
-          "Description": "Reveal the top Liquidity Events action and auction it off.",
-          "CardID": 201,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Market Influence Auction",
-          "Description": "Action off a stock in Price Persuasion.",
-          "CardID": 202,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Influence Spotlight",
-          "Description": "Reveal the top Price Persuasion action and auction it off.",
-          "CardID": 203,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Innovation Auction",
-          "Description": "Action off a stock in Technological Leaps.",
-          "CardID": 204,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Innovation Spotlight",
-          "Description": "Reveal the top Technological Leaps action and auction it off.",
-          "CardID": 205,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Espionage Auction",
-          "Description": "Action off a stock in Corporate Espionage.",
-          "CardID": 206,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Espionage Spotlight",
-          "Description": "Reveal the top Corporate Espionage action and auction it off.",
-          "CardID": 207,
+          "CardID": 106,
           "CustomDeck": {}
         }
       ]
@@ -882,12 +683,18 @@
         208,
         209,
         210,
-        211
+        211,
+        212,
+        213,
+        214,
+        300,
+        301,
+        302
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_01.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_01.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=3",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -895,10 +702,19 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_02.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_02.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=3",
           "NumWidth": 5,
           "NumHeight": 3,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        },
+        "3": {
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_03.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=3",
+          "NumWidth": 5,
+          "NumHeight": 1,
           "BackIsHidden": true,
           "UniqueBack": false,
           "Type": 0
@@ -1390,6 +1206,114 @@
           "Description": "Buy an action. Instead of taking the top card, look at the top five cards of the deck and choose one. Put the others on the bottom of the deck.",
           "CardID": 211,
           "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Liquidity Auction",
+          "Description": "Action off a stock in Liquidity Events.",
+          "CardID": 212,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Liquidity Spotlight",
+          "Description": "Reveal the top Liquidity Events action and auction it off.",
+          "CardID": 213,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Market Crash",
+          "Description": "Move the price of all stocks down by two.",
+          "CardID": 214,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Market Boom",
+          "Description": "Move the price of all stocks up by two.",
+          "CardID": 300,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Stimulus Package",
+          "Description": "The poorest player (in terms of cash) gains $5.",
+          "CardID": 301,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Death of a rich aunt",
+          "Description": "The player with the fewest stocks gets a free stock in Price Persuasion.",
+          "CardID": 302,
+          "CustomDeck": {}
         }
       ]
     },
@@ -1417,8 +1341,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Players/deck_01.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Players/deck_01.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=3",
           "NumWidth": 5,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -1563,12 +1487,18 @@
         210,
         211,
         212,
-        213
+        213,
+        214,
+        300,
+        301,
+        302,
+        303,
+        304
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_01.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_01.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=3",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -1576,10 +1506,19 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_02.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_02.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=3",
           "NumWidth": 5,
           "NumHeight": 3,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        },
+        "3": {
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_03.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=3",
+          "NumWidth": 5,
+          "NumHeight": 1,
           "BackIsHidden": true,
           "UniqueBack": false,
           "Type": 0
@@ -2107,6 +2046,114 @@
           "Description": "Choose one: move the stock you own the most of down five, or move the stock you own the least of up five. If there are ties, choose which stock to move.",
           "CardID": 213,
           "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Market Influence Auction",
+          "Description": "Action off a stock in Price Persuasion.",
+          "CardID": 214,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Influence Spotlight",
+          "Description": "Reveal the top Price Persuasion action and auction it off.",
+          "CardID": 300,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Market Crash",
+          "Description": "Move the price of all stocks down by two.",
+          "CardID": 301,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Market Boom",
+          "Description": "Move the price of all stocks up by two.",
+          "CardID": 302,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Stimulus Package",
+          "Description": "The poorest player (in terms of cash) gains $5.",
+          "CardID": 303,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Death of a rich aunt",
+          "Description": "The player with the fewest stocks gets a free stock in Price Persuasion.",
+          "CardID": 304,
+          "CustomDeck": {}
         }
       ]
     },
@@ -2143,12 +2190,18 @@
         114,
         200,
         201,
-        202
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_01.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Yellow.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_01.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Yellow.png?v=3",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -2156,10 +2209,10 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_02.png?v=2",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Yellow.png?v=2",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_02.png?v=3",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Yellow.png?v=3",
           "NumWidth": 5,
-          "NumHeight": 1,
+          "NumHeight": 2,
           "BackIsHidden": true,
           "UniqueBack": false,
           "Type": 0
@@ -2488,6 +2541,114 @@
           "Nickname": "Infrastructure Upgrade",
           "Description": "Your maximum hand size is permanently one bigger.",
           "CardID": 202,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Innovation Auction",
+          "Description": "Action off a stock in Technological Leaps.",
+          "CardID": 203,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Innovation Spotlight",
+          "Description": "Reveal the top Technological Leaps action and auction it off.",
+          "CardID": 204,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Market Crash",
+          "Description": "Move the price of all stocks down by two.",
+          "CardID": 205,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Market Boom",
+          "Description": "Move the price of all stocks up by two.",
+          "CardID": 206,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Stimulus Package",
+          "Description": "The poorest player (in terms of cash) gains $5.",
+          "CardID": 207,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Death of a rich aunt",
+          "Description": "The player with the fewest stocks gets a free stock in Price Persuasion.",
+          "CardID": 208,
           "CustomDeck": {}
         }
       ]

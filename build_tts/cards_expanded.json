@@ -203,6 +203,48 @@
     "copy_index": 1
   },
   {
+    "section": "Price Manipulation",
+    "name": "Market Influence Auction",
+    "text": "Action off a stock in Price Persuasion.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Influence Spotlight",
+    "text": "Reveal the top Price Persuasion action and auction it off.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Crash",
+    "text": "Move the price of all stocks down by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Market Boom",
+    "text": "Move the price of all stocks up by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Stimulus Package",
+    "text": "The poorest player (in terms of cash) gains $5.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Price Manipulation",
+    "name": "Death of a rich aunt",
+    "text": "The player with the fewest stocks gets a free stock in Price Persuasion.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 1
+  },
+  {
     "section": "Liquidity Events",
     "name": "Block Trade",
     "text": "Buy or sell up to three of any one stock",
@@ -390,6 +432,48 @@
     "text": "Buy an action. Instead of taking the top card, look at the top five cards of the deck and choose one. Put the others on the bottom of the deck.",
     "image_link": "https://commons.wikimedia.org/wiki/File:5fingers_icoline.svg",
     "copy_index": 2
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Liquidity Auction",
+    "text": "Action off a stock in Liquidity Events.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Liquidity Spotlight",
+    "text": "Reveal the top Liquidity Events action and auction it off.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Market Crash",
+    "text": "Move the price of all stocks down by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Market Boom",
+    "text": "Move the price of all stocks up by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Stimulus Package",
+    "text": "The poorest player (in terms of cash) gains $5.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Liquidity Events",
+    "name": "Death of a rich aunt",
+    "text": "The player with the fewest stocks gets a free stock in Price Persuasion.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 1
   },
   {
     "section": "Technological Leaps",
@@ -518,6 +602,48 @@
     "copy_index": 1
   },
   {
+    "section": "Technological Leaps",
+    "name": "Innovation Auction",
+    "text": "Action off a stock in Technological Leaps.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Innovation Spotlight",
+    "text": "Reveal the top Technological Leaps action and auction it off.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Market Crash",
+    "text": "Move the price of all stocks down by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Market Boom",
+    "text": "Move the price of all stocks up by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Stimulus Package",
+    "text": "The poorest player (in terms of cash) gains $5.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Technological Leaps",
+    "name": "Death of a rich aunt",
+    "text": "The player with the fewest stocks gets a free stock in Price Persuasion.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 1
+  },
+  {
     "section": "Corporate Espionage",
     "name": "Forced Liquidation",
     "text": "Move the price of a stock up two. Choose an opponent. They must sell all of their stock of that type.",
@@ -637,6 +763,48 @@
     "copy_index": 3
   },
   {
+    "section": "Corporate Espionage",
+    "name": "Espionage Auction",
+    "text": "Action off a stock in Corporate Espionage.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Espionage Spotlight",
+    "text": "Reveal the top Corporate Espionage action and auction it off.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Market Crash",
+    "text": "Move the price of all stocks down by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Market Boom",
+    "text": "Move the price of all stocks up by two.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Stimulus Package",
+    "text": "The poorest player (in terms of cash) gains $5.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 1
+  },
+  {
+    "section": "Corporate Espionage",
+    "name": "Death of a rich aunt",
+    "text": "The player with the fewest stocks gets a free stock in Price Persuasion.",
+    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
+    "copy_index": 1
+  },
+  {
     "section": "Events",
     "name": "Market Crash",
     "text": "Move the price of all stocks down by two.",
@@ -645,52 +813,10 @@
   },
   {
     "section": "Events",
-    "name": "Market Crash",
-    "text": "Move the price of all stocks down by two.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
-    "copy_index": 2
-  },
-  {
-    "section": "Events",
-    "name": "Market Crash",
-    "text": "Move the price of all stocks down by two.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
-    "copy_index": 3
-  },
-  {
-    "section": "Events",
-    "name": "Market Crash",
-    "text": "Move the price of all stocks down by two.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20downTriangle.svg",
-    "copy_index": 4
-  },
-  {
-    "section": "Events",
     "name": "Market Boom",
     "text": "Move the price of all stocks up by two.",
     "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
     "copy_index": 1
-  },
-  {
-    "section": "Events",
-    "name": "Market Boom",
-    "text": "Move the price of all stocks up by two.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
-    "copy_index": 2
-  },
-  {
-    "section": "Events",
-    "name": "Market Boom",
-    "text": "Move the price of all stocks up by two.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
-    "copy_index": 3
-  },
-  {
-    "section": "Events",
-    "name": "Market Boom",
-    "text": "Move the price of all stocks up by two.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
-    "copy_index": 4
   },
   {
     "section": "Events",
@@ -701,31 +827,17 @@
   },
   {
     "section": "Events",
-    "name": "Government Grant",
-    "text": "Gain $100,000 from the bank.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/Money%20Bag%20(61476)%20-%20The%20Noun%20Project.svg",
-    "copy_index": 2
-  },
-  {
-    "section": "Events",
     "name": "Stimulus Package",
-    "text": "Every player gets $50,000 from the bank.",
+    "text": "The poorest player (in terms of cash) gains $5.",
     "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
     "copy_index": 1
   },
   {
     "section": "Events",
-    "name": "Stimulus Package",
-    "text": "Every player gets $50,000 from the bank.",
+    "name": "Death of a rich aunt",
+    "text": "The player with the fewest stocks gets a free stock in Price Persuasion.",
     "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
-    "copy_index": 2
-  },
-  {
-    "section": "Events",
-    "name": "Stimulus Package",
-    "text": "Every player gets $50,000 from the bank.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20userAvatar.svg",
-    "copy_index": 3
+    "copy_index": 1
   },
   {
     "section": "Events",
@@ -739,62 +851,6 @@
     "name": "Buying Frenzy",
     "text": "Starting with you and going left, every player can buy up to three stocks.",
     "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20upTriangle.svg",
-    "copy_index": 1
-  },
-  {
-    "section": "Events",
-    "name": "Liquidity Auction",
-    "text": "Action off a stock in Liquidity Events.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
-    "copy_index": 1
-  },
-  {
-    "section": "Events",
-    "name": "Liquidity Spotlight",
-    "text": "Reveal the top Liquidity Events action and auction it off.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
-    "copy_index": 1
-  },
-  {
-    "section": "Events",
-    "name": "Market Influence Auction",
-    "text": "Action off a stock in Price Persuasion.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
-    "copy_index": 1
-  },
-  {
-    "section": "Events",
-    "name": "Influence Spotlight",
-    "text": "Reveal the top Price Persuasion action and auction it off.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
-    "copy_index": 1
-  },
-  {
-    "section": "Events",
-    "name": "Innovation Auction",
-    "text": "Action off a stock in Technological Leaps.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
-    "copy_index": 1
-  },
-  {
-    "section": "Events",
-    "name": "Innovation Spotlight",
-    "text": "Reveal the top Technological Leaps action and auction it off.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
-    "copy_index": 1
-  },
-  {
-    "section": "Events",
-    "name": "Espionage Auction",
-    "text": "Action off a stock in Corporate Espionage.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20bell.svg",
-    "copy_index": 1
-  },
-  {
-    "section": "Events",
-    "name": "Espionage Spotlight",
-    "text": "Reveal the top Corporate Espionage action and auction it off.",
-    "image_link": "https://commons.wikimedia.org/wiki/Special:FilePath/OOjs%20UI%20icon%20info-progressive.svg",
     "copy_index": 1
   },
   {
