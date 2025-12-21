@@ -2,40 +2,35 @@
 """
 make_tts_deck.py
 
-Spreadsheet/TSV -> TTS-ready deck assets:
+Minimal-args version (only requires the TSV and a version string).
+
+What it does:
 1) Parse TSV-ish input (section rows + card rows with: name, text, image-link, card-count)
 2) Expand by card-count
 3) Render each card face as a PNG (default 744x1039)
 4) Pack faces into one or more sprite sheets (<= 4096x4096 by default)
-5) Emit a Tabletop Simulator deck JSON that references those sprite sheets
+5) Emit a Tabletop Simulator deck JSON that references those sprite sheets, with:
+   - FaceURL built from a fixed GitHub raw root
+   - BackURL set per main deck color from a fixed backs root
+   - Cache-busting via ?v=<VERSION>
 
-PUBLIC URL SUPPORT + VERSIONING
-- Provide --public-sprites-root to auto-populate FaceURL for each section sheet:
-    <public-sprites-root>/<Section_Folder>/deck_01.png
-- Provide --public-back-url or let it derive back.png from the sprites root:
-    if sprites root ends with /sprites, back defaults to the parent .../back.png
-- Provide --url-version to append ?v=<value> (or &v= if query already exists) to ALL FaceURL/BackURL,
-  which helps avoid Tabletop Simulator image caching during iteration.
+Defaults are hard-coded to your repo layout:
+  Sprites root:
+    https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites
+  Backs root:
+    https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs
+  Default back (for non-main decks):
+    https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png
 
-COLORED BACKS FOR MAIN DECKS
-- If --public-backs-root is provided, this script will override BackURL per deck for:
-    Price Manipulation  -> Red.png
-    Liquidity Events    -> Blue.png   (you wrote "Liquidation"—interpreted as Liquidity Events)
-    Corporate Espionage -> Green.png
-    Technological Leaps -> Yellow.png
-  URL scheme:
-    <public-backs-root>/<Color>.png
-  Example:
-    https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png
+Usage:
+  python make_tts_deck.py cards.tsv --version 1
 
-Example (your repo):
-  python make_tts_deck.py cards.tsv --out-dir build_tts --per-section --write-back ^
-    --public-sprites-root "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites" ^
-    --public-backs-root "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs" ^
-    --url-version "1"
-
-Dependencies:
-  pip install pillow requests cairosvg
+Optional overrides (rare):
+  --out-dir build_tts
+  --single-deck
+  --no-write-back
+  --card-w 744 --card-h 1039
+  --max-sheet-px 4096 --preferred-cols 5
 """
 
 from __future__ import annotations
@@ -55,6 +50,15 @@ from urllib.parse import unquote, urlparse, urlencode, urlunparse, parse_qs
 
 import requests
 from PIL import Image, ImageDraw, ImageFont
+
+
+# ----------------------------
+# Repo URL defaults (hard-coded)
+# ----------------------------
+
+PUBLIC_SPRITES_ROOT_DEFAULT = "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites"
+PUBLIC_BACKS_ROOT_DEFAULT = "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs"
+PUBLIC_DEFAULT_BACK_URL_DEFAULT = "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png"
 
 
 # ----------------------------
@@ -497,22 +501,15 @@ def pack_into_sheets(
 # Public URL + version helpers
 # ----------------------------
 
-def _with_version(url: str, v: str) -> str:
+def with_version(url: str, v: str) -> str:
     if not v:
         return url
     sep = "&" if "?" in url else "?"
     return f"{url}{sep}v={v}"
 
 
-def _sanitize_folder(name: str) -> str:
+def sanitize_folder(name: str) -> str:
     return re.sub(r"[^a-zA-Z0-9_-]+", "_", name).strip("_")
-
-
-def derive_back_url_from_public_sprites_root(public_sprites_root: str) -> str:
-    root = public_sprites_root.rstrip("/")
-    if root.lower().endswith("/sprites"):
-        root = root[: -len("/sprites")]
-    return f"{root}/back.png"
 
 
 def build_face_urls_for_group(
@@ -525,7 +522,7 @@ def build_face_urls_for_group(
     urls: List[str] = []
     for (sheet_path, _, _, _) in sheet_specs:
         u = f"{root}/{group_folder_name}/{sheet_path.name}"
-        urls.append(_with_version(u, url_version))
+        urls.append(with_version(u, url_version))
     return urls
 
 
@@ -535,31 +532,23 @@ def colored_back_url_for_group(
     url_version: str,
     fallback_back_url: str,
 ) -> str:
-    """
-    Override back URL for the 4 main decks:
-      Price Manipulation  -> Red.png
-      Liquidity Events    -> Blue.png
-      Corporate Espionage -> Green.png
-      Technological Leaps -> Yellow.png
-    Otherwise return fallback_back_url.
-    """
     if not public_backs_root:
         return fallback_back_url
 
     g = group_name.strip().lower()
 
-    # Map group name -> color
-    # Note: user wrote "Liquidation" but your section is "Liquidity Events"
     mapping = {
         "price manipulation": "Red",
-        "price persuasion": "Red",          # tolerate naming drift
         "liquidity events": "Blue",
-        "liquidation": "Blue",              # tolerate typo/alt label
         "corporate espionage": "Green",
-        "espionage": "Green",
         "technological leaps": "Yellow",
+
+        # Tolerate likely shorthand / typos:
+        "liquidation": "Blue",
+        "espionage": "Green",
         "technology": "Yellow",
         "technological leap": "Yellow",
+        "price persuasion": "Red",
     }
 
     color = mapping.get(g)
@@ -568,7 +557,7 @@ def colored_back_url_for_group(
 
     root = public_backs_root.rstrip("/")
     u = f"{root}/{color}.png"
-    return _with_version(u, url_version)
+    return with_version(u, url_version)
 
 
 # ----------------------------
@@ -655,14 +644,6 @@ def tts_deck_object(
     return obj
 
 
-def build_face_urls(sheet_specs: List[Tuple[Path, int, int, int]], face_url_base: str) -> List[str]:
-    urls: List[str] = []
-    base = face_url_base.rstrip("/")
-    for (sheet_path, _, _, _) in sheet_specs:
-        urls.append(f"{base}/{sheet_path.name}" if base else f"REPLACE_WITH_PUBLIC_URL/{sheet_path.name}")
-    return urls
-
-
 # ----------------------------
 # Main
 # ----------------------------
@@ -670,52 +651,25 @@ def build_face_urls(sheet_specs: List[Tuple[Path, int, int, int]], face_url_base
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("input_tsv", type=str, help="TSV-ish card file")
-    ap.add_argument("--out-dir", type=str, default="build_tts", help="Output directory")
+    ap.add_argument("--version", type=str, required=True, help="Cache-buster version appended as ?v=<version>")
 
-    ap.add_argument("--per-section", action="store_true", help="Create one TTS deck per section (recommended)")
+    # Rare overrides (keep minimal)
+    ap.add_argument("--out-dir", type=str, default="build_tts", help="Output directory")
     ap.add_argument("--single-deck", action="store_true", help="Force a single deck containing all cards")
+    ap.add_argument("--no-write-back", action="store_true", help="Do not write local build_tts/back.png")
 
     ap.add_argument("--card-w", type=int, default=744, help="Card face width in px")
     ap.add_argument("--card-h", type=int, default=1039, help="Card face height in px")
-
     ap.add_argument("--max-sheet-px", type=int, default=4096, help="Max sprite sheet width/height in px")
     ap.add_argument("--preferred-cols", type=int, default=5, help="Preferred number of columns in sprite sheets")
-
     ap.add_argument("--wikimedia-width", type=int, default=512, help="Width parameter for Commons Special:FilePath")
     ap.add_argument("--svg-png-width", type=int, default=512, help="Raster width when converting SVG->PNG via cairosvg")
 
-    # Legacy/manual hosting
-    ap.add_argument("--face-url-base", type=str, default="", help="Base URL where deck_XX.png sheets will be hosted (legacy)")
-    ap.add_argument("--back-url", type=str, default="", help="Public URL for back.png (legacy)")
-    ap.add_argument("--write-back", action="store_true", help="Write a simple back.png into out-dir (still needs hosting).")
-
-    # Public hosting rooted at sprites directory
-    ap.add_argument(
-        "--public-sprites-root",
-        type=str,
-        default="",
-        help="Public URL root for sprites directory, e.g. https://raw.githubusercontent.com/<user>/<repo>/main/build_tts/sprites",
-    )
-    ap.add_argument(
-        "--public-back-url",
-        type=str,
-        default="",
-        help="Public URL for default back.png. If omitted and --public-sprites-root is set, derives from it.",
-    )
-    ap.add_argument(
-        "--public-backs-root",
-        type=str,
-        default="",
-        help="Public URL root for colored backs, e.g. https://raw.githubusercontent.com/<user>/<repo>/refs/heads/main/backs",
-    )
-    ap.add_argument(
-        "--url-version",
-        type=str,
-        default="",
-        help="Optional cache-buster appended as ?v=<value> to FaceURL/BackURL (recommended for TTS caching).",
-    )
-
     args = ap.parse_args()
+
+    url_version = args.version.strip()
+    if not url_version:
+        raise ValueError("--version cannot be empty.")
 
     in_path = Path(args.input_tsv)
     out_dir = Path(args.out_dir)
@@ -729,29 +683,18 @@ def main():
     cards_def = parse_card_file_tsvish(in_path)
     expanded_all = expand_counts(cards_def)
 
-    if args.single_deck and args.per_section:
-        raise ValueError("Choose only one of --single-deck or --per-section.")
-    if not args.single_deck and not args.per_section:
-        args.per_section = True
+    # Always per-section unless user forces single deck
+    per_section = not args.single_deck
 
+    # Local back image (optional)
     back_path = out_dir / "back.png"
-    if args.write_back:
+    if not args.no_write_back:
         make_simple_back_image(back_path, card_size)
 
-    # Default BackURL (public)
-    if args.public_back_url.strip():
-        default_back_url = args.public_back_url.strip()
-    elif args.public_sprites_root.strip():
-        default_back_url = derive_back_url_from_public_sprites_root(args.public_sprites_root.strip())
-    else:
-        default_back_url = args.back_url.strip()
+    # Default BackURL (public) and versioned
+    default_back_url = with_version(PUBLIC_DEFAULT_BACK_URL_DEFAULT, url_version)
 
-    if not default_back_url:
-        default_back_url = "REPLACE_WITH_PUBLIC_URL/back.png"
-
-    default_back_url = _with_version(default_back_url, args.url_version)
-
-    # Partition cards by section if requested
+    # Partition cards
     groups: List[Tuple[str, List[PrintableCard]]] = []
     if args.single_deck:
         groups = [("All Cards", expanded_all)]
@@ -774,7 +717,7 @@ def main():
         if not group_cards:
             continue
 
-        group_folder = _sanitize_folder(group_name)
+        group_folder = sanitize_folder(group_name)
 
         # Render faces
         group_face_dir = faces_dir / group_folder
@@ -796,7 +739,7 @@ def main():
             )
             face_paths.append(out_path)
 
-        # Pack into sprite sheets
+        # Pack to sprite sheets
         group_sprite_dir = sprites_dir / group_folder
         sheet_specs = pack_into_sheets(
             card_image_paths=face_paths,
@@ -806,37 +749,36 @@ def main():
             preferred_cols=args.preferred_cols,
         )
 
-        # FaceURLs
-        if args.public_sprites_root.strip():
-            face_urls = build_face_urls_for_group(
-                sheet_specs=sheet_specs,
-                public_sprites_root=args.public_sprites_root.strip(),
-                group_folder_name=group_folder,
-                url_version=args.url_version,
-            )
-        else:
-            face_urls = build_face_urls(sheet_specs, args.face_url_base)
-            face_urls = [_with_version(u, args.url_version) for u in face_urls]
+        # Face URLs from fixed root + version
+        face_urls = build_face_urls_for_group(
+            sheet_specs=sheet_specs,
+            public_sprites_root=PUBLIC_SPRITES_ROOT_DEFAULT,
+            group_folder_name=group_folder,
+            url_version=url_version,
+        )
 
-        # BackURL per deck (colored for 4 mains if requested)
+        # Back URL per group (colored for the four mains)
         deck_back_url = colored_back_url_for_group(
             group_name=group_name,
-            public_backs_root=args.public_backs_root.strip(),
-            url_version=args.url_version,
+            public_backs_root=PUBLIC_BACKS_ROOT_DEFAULT,
+            url_version=url_version,
             fallback_back_url=default_back_url,
         )
 
+        # TTS object
         pos = (base_x + gi * step_x, 1.0, base_z + gi * step_z)
-        tts_obj = tts_deck_object(
-            deck_name=group_name,
-            cards=group_cards,
-            sheet_specs=sheet_specs,
-            face_urls=face_urls,
-            back_url=deck_back_url,
-            pos=pos,
+        tts_objects.append(
+            tts_deck_object(
+                deck_name=group_name,
+                cards=group_cards,
+                sheet_specs=sheet_specs,
+                face_urls=face_urls,
+                back_url=deck_back_url,
+                pos=pos,
+            )
         )
-        tts_objects.append(tts_obj)
 
+        # Manifest
         for (sheet_path, num_w, num_h, count_on_sheet), url in zip(sheet_specs, face_urls):
             manifest_rows.append([
                 group_name,
@@ -850,8 +792,7 @@ def main():
             ])
 
     out_tts_json = out_dir / "tts_decks.json"
-    payload = {"ObjectStates": tts_objects}
-    out_tts_json.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    out_tts_json.write_text(json.dumps({"ObjectStates": tts_objects}, indent=2), encoding="utf-8")
 
     out_manifest = out_dir / "sprite_manifest.tsv"
     out_manifest.write_text(
@@ -866,17 +807,13 @@ def main():
     print(f"Wrote: {out_tts_json}")
     print(f"Wrote: {out_manifest}")
     print(f"Wrote: {out_cards_json}")
-    if args.write_back:
-        print(f"Wrote: {out_dir / 'back.png'}")
+    if not args.no_write_back:
+        print(f"Wrote: {back_path}")
     print(f"Rendered cards: {len(expanded_all)}")
     print(f"Sprite sheets: {len(manifest_rows)}")
-
-    if args.public_sprites_root.strip():
-        print(f"Public sprites root: {args.public_sprites_root.strip()}")
-    if args.public_backs_root.strip():
-        print(f"Public backs root: {args.public_backs_root.strip()}")
-    if args.url_version:
-        print(f"URL version: v={args.url_version}")
+    print(f"Sprites root: {PUBLIC_SPRITES_ROOT_DEFAULT}")
+    print(f"Backs root:   {PUBLIC_BACKS_ROOT_DEFAULT}")
+    print(f"Version:      v={url_version}")
 
     try:
         import cairosvg  # type: ignore
