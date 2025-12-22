@@ -37,13 +37,12 @@
         203,
         204,
         205,
-        206,
-        207
+        206
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_01.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Green.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_01.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Green.png?v=4",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -51,8 +50,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_02.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Green.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Corporate_Espionage/deck_02.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Green.png?v=4",
           "NumWidth": 5,
           "NumHeight": 2,
           "BackIsHidden": true,
@@ -129,7 +128,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Trap",
-          "Description": "Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by one.",
+          "Description": "Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by two",
           "CardID": 103,
           "CustomDeck": {}
         },
@@ -147,7 +146,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Trap",
-          "Description": "Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by one.",
+          "Description": "Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by two",
           "CardID": 104,
           "CustomDeck": {}
         },
@@ -165,7 +164,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Trap",
-          "Description": "Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by one.",
+          "Description": "Choose an opponent and a stock. They must buy as many of that stocks as they can afford up to three. Move the price of the stock down by two",
           "CardID": 105,
           "CustomDeck": {}
         },
@@ -219,7 +218,7 @@
             "scaleZ": 1
           },
           "Nickname": "Embezzlement",
-          "Description": "Steal $50,000 from an opponent.",
+          "Description": "Steal $20 from an opponent.",
           "CardID": 108,
           "CustomDeck": {}
         },
@@ -237,7 +236,7 @@
             "scaleZ": 1
           },
           "Nickname": "Embezzlement",
-          "Description": "Steal $50,000 from an opponent.",
+          "Description": "Steal $20 from an opponent.",
           "CardID": 109,
           "CustomDeck": {}
         },
@@ -255,7 +254,7 @@
             "scaleZ": 1
           },
           "Nickname": "Embezzlement",
-          "Description": "Steal $50,000 from an opponent.",
+          "Description": "Steal $20 from an opponent.",
           "CardID": 110,
           "CustomDeck": {}
         },
@@ -273,7 +272,7 @@
             "scaleZ": 1
           },
           "Nickname": "Embezzlement",
-          "Description": "Steal $50,000 from an opponent.",
+          "Description": "Steal $20 from an opponent.",
           "CardID": 111,
           "CustomDeck": {}
         },
@@ -290,8 +289,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Hostile Exchange",
-          "Description": "You may exchange three stock of one type for an opponent's as many times as you want. Do this for only one stock type.",
+          "Nickname": "Intercept Operation",
+          "Description": "Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.",
           "CardID": 112,
           "CustomDeck": {}
         },
@@ -308,8 +307,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Hostile Exchange",
-          "Description": "You may exchange three stock of one type for an opponent's as many times as you want. Do this for only one stock type.",
+          "Nickname": "Intercept Operation",
+          "Description": "Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.",
           "CardID": 113,
           "CustomDeck": {}
         },
@@ -344,45 +343,9 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Intercept Operation",
-          "Description": "Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.",
-          "CardID": 200,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Intercept Operation",
-          "Description": "Play after an opponent plays an action to take the action card for yourself. The card still resolves for your opponent as normal.",
-          "CardID": 201,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
           "Nickname": "Espionage Auction",
           "Description": "Action off a stock in Corporate Espionage.",
-          "CardID": 202,
+          "CardID": 200,
           "CustomDeck": {}
         },
         {
@@ -400,7 +363,7 @@
           },
           "Nickname": "Espionage Spotlight",
           "Description": "Reveal the top Corporate Espionage action and auction it off.",
-          "CardID": 203,
+          "CardID": 201,
           "CustomDeck": {}
         },
         {
@@ -418,7 +381,7 @@
           },
           "Nickname": "Market Crash",
           "Description": "Move the price of all stocks down by two.",
-          "CardID": 204,
+          "CardID": 202,
           "CustomDeck": {}
         },
         {
@@ -436,7 +399,7 @@
           },
           "Nickname": "Market Boom",
           "Description": "Move the price of all stocks up by two.",
-          "CardID": 205,
+          "CardID": 203,
           "CustomDeck": {}
         },
         {
@@ -454,7 +417,7 @@
           },
           "Nickname": "Stimulus Package",
           "Description": "The poorest player (in terms of cash) gains $5.",
-          "CardID": 206,
+          "CardID": 204,
           "CustomDeck": {}
         },
         {
@@ -472,7 +435,25 @@
           },
           "Nickname": "Death of a rich aunt",
           "Description": "The player with the fewest stocks gets a free stock in Price Persuasion.",
-          "CardID": 207,
+          "CardID": 205,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Hostile takeover",
+          "Description": "Buy as many of one type of stock from an opponent as you want. Pay them one higher than the next tier of prices.",
+          "CardID": 206,
           "CustomDeck": {}
         }
       ]
@@ -503,8 +484,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Events/deck_01.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Events/deck_01.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=4",
           "NumWidth": 5,
           "NumHeight": 2,
           "BackIsHidden": true,
@@ -687,14 +668,12 @@
         212,
         213,
         214,
-        300,
-        301,
-        302
+        300
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_01.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_01.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=4",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -702,8 +681,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_02.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_02.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=4",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -711,8 +690,8 @@
           "Type": 0
         },
         "3": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_03.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Liquidity_Events/deck_03.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Blue.png?v=4",
           "NumWidth": 5,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -987,7 +966,7 @@
             "scaleZ": 1
           },
           "Nickname": "Asset Conversion",
-          "Description": "Exchange three of a stock for one of any other stock",
+          "Description": "Exchange three of a stock for one of any other stock. Repeat as many times as you want with those stock types.",
           "CardID": 114,
           "CustomDeck": {}
         },
@@ -1005,7 +984,7 @@
             "scaleZ": 1
           },
           "Nickname": "Asset Conversion",
-          "Description": "Exchange three of a stock for one of any other stock",
+          "Description": "Exchange three of a stock for one of any other stock. Repeat as many times as you want with those stock types.",
           "CardID": 200,
           "CustomDeck": {}
         },
@@ -1022,8 +1001,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Asset Conversion",
-          "Description": "Exchange three of a stock for one of any other stock",
+          "Nickname": "Liquidate Holdings",
+          "Description": "You may sell any number of an action type in your hand for the price of the stock. You may do it for only one stock type.",
           "CardID": 201,
           "CustomDeck": {}
         },
@@ -1040,8 +1019,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Liquidate Holdings",
-          "Description": "You may sell any number of an action type in your hand for the price of the stock. You may do it for only one stock type.",
+          "Nickname": "Diversified Buy-In",
+          "Description": "Buy one of each stock. This effect triggers only if you have enough money to buy one of each.",
           "CardID": 202,
           "CustomDeck": {}
         },
@@ -1058,8 +1037,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Liquidate Holdings",
-          "Description": "You may sell any number of an action type in your hand for the price of the stock. You may do it for only one stock type.",
+          "Nickname": "Diversified Buy-In",
+          "Description": "Buy one of each stock. This effect triggers only if you have enough money to buy one of each.",
           "CardID": 203,
           "CustomDeck": {}
         },
@@ -1076,8 +1055,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Liquidate Holdings",
-          "Description": "You may sell any number of an action type in your hand for the price of the stock. You may do it for only one stock type.",
+          "Nickname": "Diversified Buy-In",
+          "Description": "Buy one of each stock. This effect triggers only if you have enough money to buy one of each.",
           "CardID": 204,
           "CustomDeck": {}
         },
@@ -1094,8 +1073,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Diversified Buy-In",
-          "Description": "Buy one of each stock. Play this card only if you can afford to buy one of all of them.",
+          "Nickname": "Premium Purchase",
+          "Description": "Buy up to five of any one stock. You must pay the current price + one tick.",
           "CardID": 205,
           "CustomDeck": {}
         },
@@ -1112,8 +1091,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Diversified Buy-In",
-          "Description": "Buy one of each stock. Play this card only if you can afford to buy one of all of them.",
+          "Nickname": "Premium Purchase",
+          "Description": "Buy up to five of any one stock. You must pay the current price + one tick.",
           "CardID": 206,
           "CustomDeck": {}
         },
@@ -1130,8 +1109,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Diversified Buy-In",
-          "Description": "Buy one of each stock. Play this card only if you can afford to buy one of all of them.",
+          "Nickname": "Strategic Selection",
+          "Description": "Look at the top three cards of any one action type and choose one. Put the other two at the bottom of the deck.",
           "CardID": 207,
           "CustomDeck": {}
         },
@@ -1148,63 +1127,9 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Premium Purchase",
-          "Description": "Buy up to five of any one stock. You must pay the current price + one tick.",
+          "Nickname": "Strategic Selection",
+          "Description": "Look at the top three cards of any one action type and choose one. Put the other two at the bottom of the deck.",
           "CardID": 208,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Premium Purchase",
-          "Description": "Buy up to five of any one stock. You must pay the current price + one tick.",
-          "CardID": 209,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Strategic Selection",
-          "Description": "Buy an action. Instead of taking the top card, look at the top five cards of the deck and choose one. Put the others on the bottom of the deck.",
-          "CardID": 210,
-          "CustomDeck": {}
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0,
-            "posY": 0,
-            "posZ": 0,
-            "rotX": 0,
-            "rotY": 180,
-            "rotZ": 0,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "Strategic Selection",
-          "Description": "Buy an action. Instead of taking the top card, look at the top five cards of the deck and choose one. Put the others on the bottom of the deck.",
-          "CardID": 211,
           "CustomDeck": {}
         },
         {
@@ -1222,7 +1147,7 @@
           },
           "Nickname": "Liquidity Auction",
           "Description": "Action off a stock in Liquidity Events.",
-          "CardID": 212,
+          "CardID": 209,
           "CustomDeck": {}
         },
         {
@@ -1240,7 +1165,7 @@
           },
           "Nickname": "Liquidity Spotlight",
           "Description": "Reveal the top Liquidity Events action and auction it off.",
-          "CardID": 213,
+          "CardID": 210,
           "CustomDeck": {}
         },
         {
@@ -1258,7 +1183,7 @@
           },
           "Nickname": "Market Crash",
           "Description": "Move the price of all stocks down by two.",
-          "CardID": 214,
+          "CardID": 211,
           "CustomDeck": {}
         },
         {
@@ -1276,7 +1201,7 @@
           },
           "Nickname": "Market Boom",
           "Description": "Move the price of all stocks up by two.",
-          "CardID": 300,
+          "CardID": 212,
           "CustomDeck": {}
         },
         {
@@ -1294,7 +1219,7 @@
           },
           "Nickname": "Stimulus Package",
           "Description": "The poorest player (in terms of cash) gains $5.",
-          "CardID": 301,
+          "CardID": 213,
           "CustomDeck": {}
         },
         {
@@ -1312,7 +1237,25 @@
           },
           "Nickname": "Death of a rich aunt",
           "Description": "The player with the fewest stocks gets a free stock in Price Persuasion.",
-          "CardID": 302,
+          "CardID": 214,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Sell it for scraps",
+          "Description": "Sell as many of one type of stock as you want for one minus the current tier of the price.",
+          "CardID": 300,
           "CustomDeck": {}
         }
       ]
@@ -1341,8 +1284,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Players/deck_01.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Players/deck_01.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/back.png?v=4",
           "NumWidth": 5,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -1493,12 +1436,13 @@
         301,
         302,
         303,
-        304
+        304,
+        305
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_01.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_01.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=4",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -1506,8 +1450,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_02.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_02.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=4",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -1515,10 +1459,10 @@
           "Type": 0
         },
         "3": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_03.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Price_Manipulation/deck_03.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Red.png?v=4",
           "NumWidth": 5,
-          "NumHeight": 1,
+          "NumHeight": 2,
           "BackIsHidden": true,
           "UniqueBack": false,
           "Type": 0
@@ -1539,7 +1483,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Nudge",
-          "Description": "Increase or decrease the price of any stock by one",
+          "Description": "Increase or decrease the price of any stock by two",
           "CardID": 100,
           "CustomDeck": {}
         },
@@ -1557,7 +1501,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Nudge",
-          "Description": "Increase or decrease the price of any stock by one",
+          "Description": "Increase or decrease the price of any stock by two",
           "CardID": 101,
           "CustomDeck": {}
         },
@@ -1575,7 +1519,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Nudge",
-          "Description": "Increase or decrease the price of any stock by one",
+          "Description": "Increase or decrease the price of any stock by two",
           "CardID": 102,
           "CustomDeck": {}
         },
@@ -1593,7 +1537,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Nudge",
-          "Description": "Increase or decrease the price of any stock by one",
+          "Description": "Increase or decrease the price of any stock by two",
           "CardID": 103,
           "CustomDeck": {}
         },
@@ -1611,7 +1555,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Nudge",
-          "Description": "Increase or decrease the price of any stock by one",
+          "Description": "Increase or decrease the price of any stock by two",
           "CardID": 104,
           "CustomDeck": {}
         },
@@ -1629,7 +1573,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Nudge",
-          "Description": "Increase or decrease the price of any stock by one",
+          "Description": "Increase or decrease the price of any stock by two",
           "CardID": 105,
           "CustomDeck": {}
         },
@@ -1647,7 +1591,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Nudge",
-          "Description": "Increase or decrease the price of any stock by one",
+          "Description": "Increase or decrease the price of any stock by two",
           "CardID": 106,
           "CustomDeck": {}
         },
@@ -1665,7 +1609,7 @@
             "scaleZ": 1
           },
           "Nickname": "Market Nudge",
-          "Description": "Increase or decrease the price of any stock by one",
+          "Description": "Increase or decrease the price of any stock by two",
           "CardID": 107,
           "CustomDeck": {}
         },
@@ -1754,8 +1698,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Internal Repricing",
-          "Description": "Increase or decrease the price of Price Manipulators by three",
+          "Nickname": "Aggressive Sell-Off",
+          "Description": "Decrease the price of any stock by three",
           "CardID": 112,
           "CustomDeck": {}
         },
@@ -1772,8 +1716,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Internal Repricing",
-          "Description": "Increase or decrease the price of Price Manipulators by three",
+          "Nickname": "Aggressive Sell-Off",
+          "Description": "Decrease the price of any stock by three",
           "CardID": 113,
           "CustomDeck": {}
         },
@@ -1790,8 +1734,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Liquidity Shock",
-          "Description": "Increase or decrease the price of Liquidity Events by three",
+          "Nickname": "Internal Repricing",
+          "Description": "Increase or decrease the price of Price Manipulators by three",
           "CardID": 114,
           "CustomDeck": {}
         },
@@ -1808,8 +1752,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Liquidity Shock",
-          "Description": "Increase or decrease the price of Liquidity Events by three",
+          "Nickname": "Internal Repricing",
+          "Description": "Increase or decrease the price of Price Manipulators by three",
           "CardID": 200,
           "CustomDeck": {}
         },
@@ -1826,8 +1770,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Insider Pressure",
-          "Description": "Increase or decrease the price of Corporate Espionage by three",
+          "Nickname": "Liquidity Shock",
+          "Description": "Increase or decrease the price of Liquidity Events by three",
           "CardID": 201,
           "CustomDeck": {}
         },
@@ -1844,8 +1788,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Insider Pressure",
-          "Description": "Increase or decrease the price of Corporate Espionage by three",
+          "Nickname": "Liquidity Shock",
+          "Description": "Increase or decrease the price of Liquidity Events by three",
           "CardID": 202,
           "CustomDeck": {}
         },
@@ -1862,8 +1806,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Innovation Revaluation",
-          "Description": "Increase or decrease the price of Technological leaps by three",
+          "Nickname": "Insider Pressure",
+          "Description": "Increase or decrease the price of Corporate Espionage by three",
           "CardID": 203,
           "CustomDeck": {}
         },
@@ -1880,8 +1824,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Innovation Revaluation",
-          "Description": "Increase or decrease the price of Technological leaps by three",
+          "Nickname": "Insider Pressure",
+          "Description": "Increase or decrease the price of Corporate Espionage by three",
           "CardID": 204,
           "CustomDeck": {}
         },
@@ -1898,8 +1842,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Guided Forecast",
-          "Description": "Announce a stock and a direction. At the start of your next turn, move that stock in that direction by four.",
+          "Nickname": "Innovation Revaluation",
+          "Description": "Increase or decrease the price of Technological leaps by three",
           "CardID": 205,
           "CustomDeck": {}
         },
@@ -1916,8 +1860,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Guided Forecast",
-          "Description": "Announce a stock and a direction. At the start of your next turn, move that stock in that direction by four.",
+          "Nickname": "Innovation Revaluation",
+          "Description": "Increase or decrease the price of Technological leaps by three",
           "CardID": 206,
           "CustomDeck": {}
         },
@@ -1934,8 +1878,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Market Signal",
-          "Description": "Announce a stock. At the start of your next turn, move it up or down by three.",
+          "Nickname": "Guided Forecast",
+          "Description": "Announce a stock and a direction. At the start of your next turn, move that stock in that direction by four.",
           "CardID": 207,
           "CustomDeck": {}
         },
@@ -1952,8 +1896,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Market Signal",
-          "Description": "Announce a stock. At the start of your next turn, move it up or down by three.",
+          "Nickname": "Guided Forecast",
+          "Description": "Announce a stock and a direction. At the start of your next turn, move that stock in that direction by four.",
           "CardID": 208,
           "CustomDeck": {}
         },
@@ -1970,8 +1914,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Supply Dump / Corner the Market",
-          "Description": "You may trade in as many of a stock as you choose. Raise or lower the price of that stock by the amount you traded in.",
+          "Nickname": "Market Signal",
+          "Description": "Announce a stock. At the start of your next turn, move it up or down by three.",
           "CardID": 209,
           "CustomDeck": {}
         },
@@ -1988,8 +1932,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Supply Dump / Corner the Market",
-          "Description": "You may trade in as many of a stock as you choose. Raise or lower the price of that stock by the amount you traded in.",
+          "Nickname": "Market Signal",
+          "Description": "Announce a stock. At the start of your next turn, move it up or down by three.",
           "CardID": 210,
           "CustomDeck": {}
         },
@@ -2006,9 +1950,27 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Momentum Buying",
-          "Description": "Every time you buy a stock this turn increase its price by the amount of stock you bought.",
+          "Nickname": "Supply Dump / Corner the Market",
+          "Description": "You may trade in as many of a stock as you choose. Raise or lower the price of that stock by the amount you traded in.",
           "CardID": 211,
+          "CustomDeck": {}
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Supply Dump / Corner the Market",
+          "Description": "You may trade in as many of a stock as you choose. Raise or lower the price of that stock by the amount you traded in.",
+          "CardID": 212,
           "CustomDeck": {}
         },
         {
@@ -2026,7 +1988,7 @@
           },
           "Nickname": "Momentum Buying",
           "Description": "Every time you buy a stock this turn increase its price by the amount of stock you bought.",
-          "CardID": 212,
+          "CardID": 213,
           "CustomDeck": {}
         },
         {
@@ -2044,7 +2006,7 @@
           },
           "Nickname": "Portfolio Rebalance",
           "Description": "Choose one: move the stock you own the most of down five, or move the stock you own the least of up five. If there are ties, choose which stock to move.",
-          "CardID": 213,
+          "CardID": 214,
           "CustomDeck": {}
         },
         {
@@ -2062,7 +2024,7 @@
           },
           "Nickname": "Market Influence Auction",
           "Description": "Action off a stock in Price Persuasion.",
-          "CardID": 214,
+          "CardID": 300,
           "CustomDeck": {}
         },
         {
@@ -2080,7 +2042,7 @@
           },
           "Nickname": "Influence Spotlight",
           "Description": "Reveal the top Price Persuasion action and auction it off.",
-          "CardID": 300,
+          "CardID": 301,
           "CustomDeck": {}
         },
         {
@@ -2098,7 +2060,7 @@
           },
           "Nickname": "Market Crash",
           "Description": "Move the price of all stocks down by two.",
-          "CardID": 301,
+          "CardID": 302,
           "CustomDeck": {}
         },
         {
@@ -2116,7 +2078,7 @@
           },
           "Nickname": "Market Boom",
           "Description": "Move the price of all stocks up by two.",
-          "CardID": 302,
+          "CardID": 303,
           "CustomDeck": {}
         },
         {
@@ -2134,7 +2096,7 @@
           },
           "Nickname": "Stimulus Package",
           "Description": "The poorest player (in terms of cash) gains $5.",
-          "CardID": 303,
+          "CardID": 304,
           "CustomDeck": {}
         },
         {
@@ -2152,7 +2114,7 @@
           },
           "Nickname": "Death of a rich aunt",
           "Description": "The player with the fewest stocks gets a free stock in Price Persuasion.",
-          "CardID": 304,
+          "CardID": 305,
           "CustomDeck": {}
         }
       ]
@@ -2200,8 +2162,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_01.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Yellow.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_01.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Yellow.png?v=4",
           "NumWidth": 5,
           "NumHeight": 3,
           "BackIsHidden": true,
@@ -2209,8 +2171,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_02.png?v=3",
-          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Yellow.png?v=3",
+          "FaceURL": "https://raw.githubusercontent.com/Jonysegal/board-games/main/build_tts/sprites/Technological_Leaps/deck_02.png?v=4",
+          "BackURL": "https://raw.githubusercontent.com/Jonysegal/board-games/refs/heads/main/backs/Yellow.png?v=4",
           "NumWidth": 5,
           "NumHeight": 2,
           "BackIsHidden": true,
@@ -2341,7 +2303,7 @@
             "scaleZ": 1
           },
           "Nickname": "Action Replication",
-          "Description": "This action behaves as a copy of the last action you played.",
+          "Description": "This action behaves as a copy of the last action you played. It doesn't count against your move limit, and you can play it even if you have zero moves left.",
           "CardID": 106,
           "CustomDeck": {}
         },
@@ -2359,7 +2321,7 @@
             "scaleZ": 1
           },
           "Nickname": "Action Replication",
-          "Description": "This action behaves as a copy of the last action you played.",
+          "Description": "This action behaves as a copy of the last action you played. It doesn't count against your move limit, and you can play it even if you have zero moves left.",
           "CardID": 107,
           "CustomDeck": {}
         },
@@ -2377,7 +2339,7 @@
             "scaleZ": 1
           },
           "Nickname": "Action Replication",
-          "Description": "This action behaves as a copy of the last action you played.",
+          "Description": "This action behaves as a copy of the last action you played. It doesn't count against your move limit, and you can play it even if you have zero moves left.",
           "CardID": 108,
           "CustomDeck": {}
         },
@@ -2395,7 +2357,7 @@
             "scaleZ": 1
           },
           "Nickname": "Action Replication",
-          "Description": "This action behaves as a copy of the last action you played.",
+          "Description": "This action behaves as a copy of the last action you played. It doesn't count against your move limit, and you can play it even if you have zero moves left.",
           "CardID": 109,
           "CustomDeck": {}
         },
@@ -2448,8 +2410,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Vertical Integration",
-          "Description": "You may exchange any number of one type of stock for that many cards of the company's type.",
+          "Nickname": "Dual Execution",
+          "Description": "Play the top action of price persuaders or liquidity lovers. Repeat this three total times.",
           "CardID": 112,
           "CustomDeck": {}
         },
@@ -2466,8 +2428,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Vertical Integration",
-          "Description": "You may exchange any number of one type of stock for that many cards of the company's type.",
+          "Nickname": "Dual Execution",
+          "Description": "Play the top action of price persuaders or liquidity lovers. Repeat this three total times.",
           "CardID": 113,
           "CustomDeck": {}
         },
@@ -2484,8 +2446,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Vertical Integration",
-          "Description": "You may exchange any number of one type of stock for that many cards of the company's type.",
+          "Nickname": "Dual Execution",
+          "Description": "Play the top action of price persuaders or liquidity lovers. Repeat this three total times.",
           "CardID": 114,
           "CustomDeck": {}
         },
@@ -2502,8 +2464,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Vertical Integration",
-          "Description": "You may exchange any number of one type of stock for that many cards of the company's type.",
+          "Nickname": "Shopping frenzy",
+          "Description": "Buy up to three actions.",
           "CardID": 200,
           "CustomDeck": {}
         },
@@ -2520,8 +2482,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Unlimited Bandwidth",
-          "Description": "Ignore the hand size limit this turn.",
+          "Nickname": "Shopping frenzy",
+          "Description": "Buy up to three actions.",
           "CardID": 201,
           "CustomDeck": {}
         },
@@ -2538,8 +2500,8 @@
             "scaleY": 1,
             "scaleZ": 1
           },
-          "Nickname": "Infrastructure Upgrade",
-          "Description": "Your maximum hand size is permanently one bigger.",
+          "Nickname": "Shopping frenzy",
+          "Description": "Buy up to three actions.",
           "CardID": 202,
           "CustomDeck": {}
         },
