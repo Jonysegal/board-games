@@ -218,6 +218,10 @@ def generate_price_tracks() -> None:
 
         big_ys = compute_tier_positions_y(tiers, y_top, y_bottom)
 
+        # Flip Y positions so higher numeric values appear at the top
+        # (reflect positions within the available vertical range).
+        big_ys = [int(round(y_top + y_bottom - y)) for y in big_ys]
+
         for i, (y, tier) in enumerate(zip(big_ys, tiers)):
             # Big dot
             draw.ellipse(
